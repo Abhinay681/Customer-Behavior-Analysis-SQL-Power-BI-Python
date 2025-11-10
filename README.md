@@ -135,5 +135,11 @@ Filters available:
 
 ---
 
-## 📁 Project Structure
+
+---
+
+## 👤 Author
+
+**Abhinay Reddy**  
+Data Analyst | SQL • Python • Power BI  
 
