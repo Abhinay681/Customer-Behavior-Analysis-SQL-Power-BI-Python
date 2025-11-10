@@ -84,4 +84,70 @@ The Power BI file visualizes SQL & Python insights.
 ### 🖼 Dashboard Screenshot
 
 > Save your screenshot in a folder named `screenshots` and name it `dashboard.png`
+> 
+Insert screenshot here:
+
+![Dashboard Screenshot](screenshots/dashboard.png)
+
+---
+
+## 🔹 KPIs (Summary Cards in Dashboard)
+
+| KPI | Meaning |
+|-----|---------|
+| **$59.76** | Average purchase amount |
+| **3.75** | Average customer review rating |
+| **3.9K** | Total number of customers |
+
+---
+
+## 🔹 Dashboard Visuals
+
+- Donut Chart — % of Customers (Subscribed vs Non-subscribed)
+- Bar Chart — Revenue by Category
+- Bar Chart — Sales by Category
+- Horizontal Bar Chart — Revenue by Age Group
+- Horizontal Bar Chart — Sales by Age Group
+
+Filters available:
+
+- Subscription status
+- Gender
+- Product category
+- Shipping type
+
+---
+
+## 📊 Insights & Findings
+
+- **Clothing generates the highest revenue and sales volume**
+- **92.7% of customers are not subscribed** → huge conversion opportunity
+- **Young adults & middle-aged groups contribute most revenue**
+- **Subscribers spend more than non-subscribers**
+- **Average purchase amount is strong ($59.76)**
+
+---
+
+## ✅ Business Recommendations
+
+| Insight | Recommendation |
+|--------|---------------|
+| Low subscription rate (only 7.3%) | Promote subscription benefits (discounts/free shipping) |
+| Clothing drives revenue | Increase marketing / bundle offers |
+| Young & middle-aged buy the most | Personalize ads for these segments |
+| High spending per purchase | Introduce upsell strategies |
+
+---
+
+## 🚀 How to Run the Project
+
+1. Run SQL queries from `customer_behaviour.sql`
+2. Open `customer_behaviour.html` to view Python analysis
+3. Open Power BI dashboard `customer behavior dashboard.pbix`
+
+---
+
+## 📁 Project Structure
+
+
 
