@@ -84,7 +84,8 @@ The Power BI file visualizes SQL & Python insights.
 ### 🖼 Dashboard Screenshot
 
 > Save your screenshot in a folder named `screenshots` and name it `dashboard.png`
-> 
+
+
 Insert screenshot here:
 
 ![Dashboard Screenshot](screenshots/dashboard.png)
@@ -148,6 +149,8 @@ Filters available:
 ---
 
 ## 📁 Project Structure
+
+
 
 
 
