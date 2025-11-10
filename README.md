@@ -11,14 +11,14 @@
 
 This project analyzes **customer purchasing behavior** to understand:
 
-- Which products perform best
-- What drives revenue
-- How subscribers differ from non-subscribers
-- Which customer segments (age group, category, gender) contribute most
+- What drives sales and revenue
+- Which products and categories perform best
+- Differences between subscribers vs non-subscribers
+- Which customer segments contribute most to revenue
 
 The workflow includes:
 
-- ✅ Data cleaning, exploration, and exporting results using **Python (Jupyter Notebook)**
+- ✅ Data cleaning, exploration, and HTML export using **Python (Jupyter Notebook)**
 - ✅ Business insights extraction using **SQL**
 - ✅ Dashboard storytelling using **Power BI**
 
@@ -31,7 +31,7 @@ The workflow includes:
 | Data Processing & HTML Export | Python (Pandas, Jupyter Notebook) |
 | Data Analysis | SQL (PostgreSQL / MySQL) |
 | Visualization | Power BI |
-| File Formats | `.pbix`, `.sql`, `.html` |
+| Output Formats | `.pbix`, `.sql`, `.html` |
 
 ---
 
@@ -39,43 +39,43 @@ The workflow includes:
 
 ✔ Extracts insights using SQL  
 ✔ Segments customers (New / Returning / Loyal)  
-✔ Identifies best performing products  
+✔ Identifies best-performing product categories  
 ✔ Compares subscriber vs non-subscriber revenue  
-✔ Shows revenue breakdown by gender, age group, shipping type, discount usage, etc.  
+✔ Shows revenue contribution based on gender, age group, shipping type, etc.
 
 ---
 
 ## 📊 Key Business Questions (SQL Analysis)
 
-| Question | Description |
-|----------|-------------|
-| Which gender generates more revenue? | Groups by gender and sums purchase amount. |
-| Do discounts improve revenue contribution? | Filters discounted purchases above average purchase amount. |
-| What products have the highest ratings? | Ranks based on average review rating. |
-| Are subscribers more profitable? | Compares avg spend + total revenue by subscription. |
-| Best-selling products by category? | Uses `ROW_NUMBER()` window function. |
-| Do repeat buyers also subscribe? | Checks subscription behavior for loyal buyers. |
-| Revenue contribution by age group? | Revenue aggregated by age segment. |
+| Business Question | Insight Goal |
+|------------------|--------------|
+| Which gender generates more revenue? | Analyze spending trends by gender. |
+| Do discounts improve revenue contribution? | Identify if discounts influence higher purchases. |
+| What products have the highest review rating? | Understand customer satisfaction with products. |
+| Are subscribers more profitable? | Compare avg purchase & total revenue. |
+| Best-selling products by category? | Extract using `ROW_NUMBER()` window function. |
+| Do repeat buyers also subscribe? | Analyze loyalty behavior. |
+| Revenue contribution by age group? | Identify high-value age segments. |
 
 📄 SQL File: **`customer_behaviour.sql`**
 
 ---
 
-## 🐍 Python Component (HTML output)
+## 🐍 Python Component (HTML Output)
 
 Python was used to:
 
-- Load and explore dataset using Pandas
-- Generate summary statistics
-- Export findings into an **HTML report**
+- Load dataset using Pandas
+- Generate insights and summaries
+- Export the notebook results as HTML
 
-📄 HTML Output: **`customer_behaviour.html`**
+📄 HTML File: **`customer_behaviour.html`**
 
 ---
 
 ## 📈 Power BI Dashboard
 
-The Power BI file visualizes SQL & Python insights.
+The Power BI dashboard visualizes all insights generated through SQL + Python.
 
 📊 Dashboard File: **`customer behavior dashboard.pbix`**
 
@@ -83,74 +83,58 @@ The Power BI file visualizes SQL & Python insights.
 
 ### 🖼 Dashboard Screenshot
 
-> Save your screenshot in a folder named `screenshots` and name it `dashboard.png`
+> (Upload your screenshot to a folder named `screenshots` and name it `dashboard.png`)
 
-
-Insert screenshot here:
-
-![Dashboard Screenshot](screenshots/dashboard.png)
+![Customer Behavior Dashboard](screenshots/dashboard.png)
 
 ---
 
-## 🔹 KPIs (Summary Cards in Dashboard)
+## 🔹 KPIs (Top Cards)
 
 | KPI | Meaning |
 |-----|---------|
 | **$59.76** | Average purchase amount |
 | **3.75** | Average customer review rating |
-| **3.9K** | Total number of customers |
+| **3.9K** | Number of customers |
 
 ---
 
 ## 🔹 Dashboard Visuals
 
-- Donut Chart — % of Customers (Subscribed vs Non-subscribed)
-- Bar Chart — Revenue by Category
-- Bar Chart — Sales by Category
-- Horizontal Bar Chart — Revenue by Age Group
-- Horizontal Bar Chart — Sales by Age Group
+✨ Donut Chart – % of Customers (Subscribed vs Non-Subscribed)  
+✨ Bar Chart – Revenue by Category  
+✨ Bar Chart – Sales by Category  
+✨ Horizontal Bar Chart – Revenue by Age Group  
+✨ Horizontal Bar Chart – Sales by Age Group  
 
 Filters available:
 
-- Subscription status
+- Subscription Status
 - Gender
-- Product category
-- Shipping type
+- Category
+- Shipping Type
 
 ---
 
-## 📊 Insights & Findings
+## 💡 Insights & Findings
 
-- **Clothing generates the highest revenue and sales volume**
-- **92.7% of customers are not subscribed** → huge conversion opportunity
-- **Young adults & middle-aged groups contribute most revenue**
-- **Subscribers spend more than non-subscribers**
-- **Average purchase amount is strong ($59.76)**
+- **92.7% of customers are not subscribed** → huge conversion potential.
+- **Clothing generates the highest revenue and sales volume.**
+- **Young adults and middle-aged customers spend the most.**
+- **Subscribers spend more per purchase**, proving subscription value.
 
 ---
 
-## ✅ Business Recommendations
+## 🚀 Business Recommendations
 
 | Insight | Recommendation |
-|--------|---------------|
-| Low subscription rate (only 7.3%) | Promote subscription benefits (discounts/free shipping) |
-| Clothing drives revenue | Increase marketing / bundle offers |
-| Young & middle-aged buy the most | Personalize ads for these segments |
-| High spending per purchase | Introduce upsell strategies |
-
----
-
-## 🚀 How to Run the Project
-
-1. Run SQL queries from `customer_behaviour.sql`
-2. Open `customer_behaviour.html` to view Python analysis
-3. Open Power BI dashboard `customer behavior dashboard.pbix`
+|---------|--------------|
+| Subscription adoption is low | Introduce free delivery or discount incentives |
+| Clothing drives highest revenue | Increase promotions and SKU expansion |
+| Young adults & middle-aged spend more | Target them with personalized campaigns |
+| Higher spend per purchase | Introduce product bundles to increase cart value |
 
 ---
 
 ## 📁 Project Structure
-
-
-
-
 
