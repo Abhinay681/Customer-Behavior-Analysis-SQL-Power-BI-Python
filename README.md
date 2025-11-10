@@ -83,9 +83,7 @@ The Power BI dashboard visualizes all insights generated through SQL + Python.
 
 ### 🖼 Dashboard Screenshot
 
-> (Upload your screenshot to a folder named `screenshots` and name it `dashboard.png`)
-
-![Customer Behavior Dashboard](screenshots/dashboard.png)
+Dashboard.png
 
 ---
 
