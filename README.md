@@ -1,72 +1,87 @@
-🛍 Customer Behaviour Analysis — SQL + Power BI + Python
+# 🛍 Customer Behaviour Analysis — SQL + Power BI + Python
 
-📌 Project Overview
+![SQL](https://img.shields.io/badge/SQL-Data%20Analysis-blue?logo=postgresql&logoColor=white)
+![Python](https://img.shields.io/badge/Python-Data%20Processing-yellow?logo=python&logoColor=white)
+![Power BI](https://img.shields.io/badge/PowerBI-Dashboard%20Visualization-F2C811?logo=powerbi&logoColor=black)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
 
-This project analyzes customer purchasing behavior to understand:
+---
 
-What drives sales
+## 📌 Project Overview
 
-Which products perform best
+This project analyzes **customer purchasing behavior** to understand:
 
-How customer segments contribute to revenue
-
-How subscription status impacts spending
+- Which products perform best
+- What drives revenue
+- How subscribers differ from non-subscribers
+- Which customer segments (age group, category, gender) contribute most
 
 The workflow includes:
 
-✅ Data cleaning, exploration, and exporting results using Python (Jupyter Notebook)
+- ✅ Data cleaning, exploration, and exporting results using **Python (Jupyter Notebook)**
+- ✅ Business insights extraction using **SQL**
+- ✅ Dashboard storytelling using **Power BI**
 
-✅ Business insights extraction using SQL
+---
 
-✅ Dashboard storytelling using Power BI
+## 🔧 Tools & Technologies Used
 
-🔧 Tools & Technologies Used
-Category	Tech Used
-Data Processing & HTML Export	Python (Pandas, Jupyter Notebook)
-Data Analysis	SQL (PostgreSQL / MySQL)
-Visualization	Power BI
-File Formats	.pbix, .sql, .html
-🧠 What This Project Does
+| Category | Tech Used |
+|----------|-----------|
+| Data Processing & HTML Export | Python (Pandas, Jupyter Notebook) |
+| Data Analysis | SQL (PostgreSQL / MySQL) |
+| Visualization | Power BI |
+| File Formats | `.pbix`, `.sql`, `.html` |
 
-✔ Extracts insights using SQL
-✔ Segments customers (New / Returning / Loyal)
-✔ Identifies best performing product categories
-✔ Compares subscriber vs non-subscriber spending
-✔ Shows revenue contribution by gender, age group, shipping type & discounts applied
-✔ Uses Python to generate an HTML output report
+---
 
-📊 Key Business Questions (SQL Analysis)
-Question	Description
-Which gender generates more revenue?	Groups customers by gender and sums purchase amount.
-Do discounts improve revenue contribution?	Filters discounted purchases above the average purchase amount.
-What products have the highest ratings?	Ranks products based on average customer review rating.
-Are subscribers more profitable?	Compares avg spend & total revenue of subscribers vs non-subscribers.
-Best-selling products by category?	Uses ROW_NUMBER() window function.
-Do repeat buyers also subscribe?	Checks subscription behavior for loyal buyers.
-Revenue contribution by age group?	Aggregates revenue based on age group segment.
+## 🧠 What This Project Does
 
-📄 SQL File: customer_behaviour.sql
+✔ Extracts insights using SQL  
+✔ Segments customers (New / Returning / Loyal)  
+✔ Identifies best performing products  
+✔ Compares subscriber vs non-subscriber revenue  
+✔ Shows revenue breakdown by gender, age group, shipping type, discount usage, etc.  
 
-🐍 Python Component (HTML Output)
+---
 
-The project contains a Jupyter Notebook, where:
+## 📊 Key Business Questions (SQL Analysis)
 
-Data is loaded using Pandas
+| Question | Description |
+|----------|-------------|
+| Which gender generates more revenue? | Groups by gender and sums purchase amount. |
+| Do discounts improve revenue contribution? | Filters discounted purchases above average purchase amount. |
+| What products have the highest ratings? | Ranks based on average review rating. |
+| Are subscribers more profitable? | Compares avg spend + total revenue by subscription. |
+| Best-selling products by category? | Uses `ROW_NUMBER()` window function. |
+| Do repeat buyers also subscribe? | Checks subscription behavior for loyal buyers. |
+| Revenue contribution by age group? | Revenue aggregated by age segment. |
 
-Exploratory data analysis performed
+📄 SQL File: **`customer_behaviour.sql`**
 
-The notebook is exported as an HTML report
+---
 
-📄 HTML Output: customer_behaviour.html (Generated using Python)
+## 🐍 Python Component (HTML output)
 
-📈 Dashboard Highlights (Power BI)
+Python was used to:
 
-The Power BI report visualizes the SQL + Python insights:
+- Load and explore dataset using Pandas
+- Generate summary statistics
+- Export findings into an **HTML report**
 
-✅ Revenue by category
-✅ Spending behavior — Subscribers vs Non-Subscribers
-✅ Customer segmentation (New / Returning / Loyal)
-✅ Sales & revenue breakdown by age group
-✅ Impact of shipping type & discount usage
+📄 HTML Output: **`customer_behaviour.html`**
 
-📊 Power BI Dashboard File: customer behavior dashboard.pbix
+---
+
+## 📈 Power BI Dashboard
+
+The Power BI file visualizes SQL & Python insights.
+
+📊 Dashboard File: **`customer behavior dashboard.pbix`**
+
+---
+
+### 🖼 Dashboard Screenshot
+
+> Save your screenshot in a folder named `screenshots` and name it `dashboard.png`
+
