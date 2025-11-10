@@ -83,7 +83,7 @@ The Power BI dashboard visualizes all insights generated through SQL + Python.
 
 ### 🖼 Dashboard Screenshot
 
-Dashboard.png
+https://github.com/Abhinay681/Customer-Behavior-Analysis-SQL-Power-BI-Python/blob/main/Dashboard.png
 
 ---
 
